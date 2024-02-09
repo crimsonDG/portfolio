@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-y: hidden;
+    font-family: 'Consolas';
+    font-style: normal;
+    background: linear-gradient(252.03deg, #821751 8.23%, #2F60B0 113.51%);
+}
+
+header {
+    height: 105px;
+    background-color: #1C1B1B;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header img {
+    margin-right: 4vw;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.tile {
+    background-image: url(svg/tile.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    mix-blend-mode: luminosity;
+    height: calc(100vh - 100px);
+}
+
+.content {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 2.5vw;
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 15%;
+}
+
+.c-buttons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.c-buttons button {
+    font-family: 'Consolas';
+    margin-right: 2.5vw;
+    cursor: pointer;
+    font-size: 1.2vw;
+    width: 10.5vw;
+    height: 3.5vw;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: none;
+}
+
+.contacts-btn {
+    background-color: #C72A80;
+}
+
+.about-btn {
+    background-color: white;
+}
+
+.c-buttons button:hover {
+    background: purple;
+}
+
+.slash {
+    mix-blend-mode: luminosity;
+    position: absolute;
+    top: 35%;
+    margin-left: 57%;
+    width: 29vw;
+    height: 21vw;
+}
+
+.about-content {
+    font-size: 1.7vw;
+    line-height: 37px;
+    width: 70vw;
+}
+
+a {
+    color: crimson;
+}
+
+a:visited{
+    color: coral;
+}
+
+a:hover, a:visited:hover{
+    color: rgb(125, 13, 35);
+}
